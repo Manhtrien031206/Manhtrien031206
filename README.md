@@ -4,8 +4,31 @@
 </a>
 
 <br>
+
+<!-- Animated Boat -->
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Boat_icon.png" width="150" style="animation: float 4s ease-in-out infinite;">
+</div>
+
+<!-- Animation CSS -->
+<style>
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<br>
 <h2 align="center"> Where to find me </h2>
 <br>
+
 <!-- https://icons8.com -->
 <div align="center">
   <a href="https://www.facebook.com/phmt612?mibextid=LQQJ4d" target="blank">
@@ -24,5 +47,3 @@
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="trungquandev-email" />
   </a>
 </div>
-
-
